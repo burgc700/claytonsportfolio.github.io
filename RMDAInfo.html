@@ -1,0 +1,60 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Clayton Burgess Portfolio</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <a href="home.html"><button>Home</button></a>
+            <a href="resume.html"><button>Resume</button></a>
+            <a href="projects.html"><button>Projects</button></a>
+            <a href="https://linkedin.com/in/clayton-burgess"><button>LinkedIn</button></a>
+            <a href="https://github.com/burgc700"><button>GitHub</button></a>
+        </nav>
+
+        <div class="text-center">
+            <div class="topper">
+                <h1 class="top-header">Remodeling Management Database App</h1>
+                <img class="logo" src="Assets/RMDA/RMDA.png" />
+                <p class="status"><strong>Status: </strong>Ongoing Improvements</p>
+                <p class="focus"><strong>Next Improvements: </strong>Bug fix, UI enhancements, better data input</p>
+                <ul class="tech-stack">
+	                <li><strong>Frontend: </strong>C# .NET, Windows Application</li>
+	                <li><strong>Backend: </strong>C# .NET, Microsoft.SqlClient library</li>
+	                <li><strong>Database and Query implementation: </strong>SQL Server Management Studio</li>
+                </ul>
+                <a href="https://github.com/Burgc700/Remodeling-Management" class="repo-link">View the repository here</a>
+            </div>
+            <h2 class="sub-header">About the project</h2>
+            <p class="description">This was a group project to connect everything we've learned through out the whole semester about database management. Throughout this project my main focus was the front-end implementation. After all that it led to diagnosing bugs as well.
+                The main UI is pretty simple and straight forward for simplicity.
+            </p>
+            <img class="RMDAscreenshot" src="Assets/RMDA/mainscreen.png" alt="Main UI display" />
+            <p class="description">Each drop down has two different UIs one to add and one to edit customers, employees, and projects. While the buttons on the right are buttons to activate some aggregating queries.</p>
+            <img class="RMDAscreenshot" src="Assets/RMDA/tasks.png" alt="Selections for drop downs" />
+            <p class="description">So if we wanted to add a customer we would click customer, add customer then we would get the following prompt to fill out and click ok.</p>
+            <div class="addcust">
+                <img class="RMDAflex1" src="Assets/RMDA/Add.png" alt="Display that shows up when adding a customer" />
+                <img class="RMDAflex" src="Assets/RMDA/added.png" alt="Main display after customer is added" />
+            </div>
+            <p class="description">Then after it will show all the the customers in order by customerID. The edit feature is set up the same way. Select customer, edit customer, then type in the customer id whose information has changed.
+                You have to type in everything again which is a downfall but part of my improvements are to auto populate the data from the ID and allow the user to change what they need to change without typing all the info in again.
+            </p>
+            <div class="editcust">
+                <img class="RMDAflex1" src="Assets/RMDA/edit.png" alt="Display that shows up when editing a customer" />
+                <img class="RMDAflex" src="Assets/RMDA/edited.png" alt="Main display showing the changed customer information" />
+            </div>
+            <p class="description">The updated information does show up though to reflect the changes. The last thing is the aggregating queries. These all have parameters you can set to get the information from a specific project or from a given time frame.</p>
+            <div class="aggq">
+                <img class="RMDAflex2" src="Assets/RMDA/aggquery1.png" alt="Display to add the parameter for the query" />
+                <img class="RMDAflex" src="Assets/RMDA/aggqueryres.png" alt="Result of running the query for total project hours" />
+            </div>
+            <p class="description">So this query shows the total hours on a given project. All other queries do something similar in nature showing more overall company statistics than individual person information. You can also search for customers, employees and projects based off their id or name.</p>
+            <h2 class="sub-header">Demo</h2>
+            <p class="description">Coming soon!!</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,60 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Clayton Burgess Portfolio</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <a href="home.html"><button>Home</button></a>
+            <a href="resume.html"><button>Resume</button></a>
+            <a href="projects.html"><button>Projects</button></a>
+            <a href="https://linkedin.com/in/clayton-burgess"><button>LinkedIn</button></a>
+            <a href="https://github.com/burgc700"><button>GitHub</button></a>
+        </nav>
+
+        <div class="text-center">
+            <div class="topper">
+	            <h1 class="top-header">ComparePro</h1>
+	            <img class="logo" src="Assets/ComparePro/ComparePro.png" />
+	            <p class="status"><strong>Status: </strong>Version 1 Complete - future improvements planned</p>
+	            <p class="focus"><strong>Next Improvements: </strong>Improve upon real time price updates, add more sites that have computer components.</p>
+	            <ul class="tech-stack">
+		            <li><strong>Frontend:</strong>React.js</li>
+		            <li><strong>Backend:</strong>Python Flask REST API</li>
+		            <li><strong>Database:</strong>SQL Server Management Studio</li>
+		            <li><strong>Authentication: </strong>Clerk</li>
+	            </ul>
+	            <a href="https://github.com/Burgc700/ComparePro" class="repo-link">View the repository here</a>
+	            <p class="note"><strong>Note: </strong>This repository is public for code review, Running locally requires creating a local environment file for Clerk authentication, and database configuration.</p>
+	        </div>
+            <h2 class="sub-header">About the project</h2>
+	        <p class="description">A full stack web application that allows users to compare computer parts like CPU, GPU, SSD, and RAM between the NewEgg and MicroCenter websites.
+		        Created to make it easier for users to do research on computer components by having it all in one window, to eliminate the use of using a 3rd party tool like excel to do research.
+		        Also, made easy for users to find the products they want to keep researching by allowing users to like the products and have those products in their own page.
+		        Each type of product can be selected to see all the products available of that type. The user can then sort those products by selecting a minimum price and minimum rating.
+	        </p>
+	        <img class="CompareProscreenshot" src="Assets/ComparePro/CPUPage.png" alt="CPU page that shows sliders users can use to filter products based off price and rating"/>
+	        <p class="description">After the user finds a product they want to investigate the product page will show all the details of the product including features and where the price break
+		        down is between the two sites. Each price comparison has a link that will take the user to the product page on the site so they can make a purchase if they want.
+	        </p>
+	        <img class="CompareProscreenshot" src="Assets/ComparePro/PriceComp.png" alt="Price comparison between the two websites for a product"/>
+	        <p class="description">The user can add comments to the product as well. This is to do their research on products they are deciding to buy when picking between more than one category.
+		        Each comment allows the user to select a field that are either prepopulated or the user can add their own. Each field is grouped together so users can find like comments.
+	        </p>
+	        <img class="CompareProscreenshot" src="Assets/ComparePro/CommentandCompare.png" alt="Comment and field components" />
+	        <p class="description">Users can also compare products. This works based off the comments for a product. Thinking like users will only want to compare products they are actively researching.
+		        So, the user has to have a comment(s) in at least two product pages in order to compare products.
+	        </p>
+	        <img class="CompareProscreenshot" src="Assets/ComparePro/Comparison.png" alt="Comparison page that shows the comments and other details for each product side by side" />
+	        <p class="description">After the user selects a product to compare they will see the current product and the selected product that make up the comparison. It shows all prices and ratings
+		        from the sites as well as the comments sorted by the field just as in the previous page. Not pictured but also present the product image and a button that takes the user to that products product page.
+	        </p>
+
+	        <h2 class="sub-header">Demo</h2>
+	        <p>Coming soon!!</p>
+        </div>
+    </body>
+</html>

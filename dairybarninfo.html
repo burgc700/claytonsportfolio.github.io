@@ -1,0 +1,65 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Clayton Burgess Portfolio</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <a href="home.html"><button>Home</button></a>
+            <a href="resume.html"><button>Resume</button></a>
+            <a href="projects.html"><button>Projects</button></a>
+            <a href="https://linkedin.com/in/clayton-burgess"><button>LinkedIn</button></a>
+            <a href="https://github.com/burgc700"><button>GitHub</button></a>
+        </nav>
+
+        <div class="text-center">
+            <div class="topper">
+	            <h1 class="top-header">Dairy Barn</h1>
+	            <img class="logo" src="Assets/DairyBarn/DairyBarn.png" />
+	            <p class="status"><strong>Status: </strong>Ongoing Improvements</p>
+	            <p class="focus"><strong>Next Improvements: </strong>Improve upon the UI and add more features to the web application.</p>
+	            <ul class="tech-stack">
+		            <li><strong>Frontend:</strong>C# .NET, WPF, Razor Pages</li>
+		            <li><strong>Backend:</strong>C# .NET</li>
+	            </ul>
+	            <p class="description">This project follows a Model-View-View-Model architecture.</p>
+	            <a href="https://github.com/Burgc700/DairyBarn_Remastered" class="repo-link">View the repository here</a>
+            </div>
+	        <h2 class="sub-header">About the project</h2>
+	        <p class="description">School project to help develop Object Oriented Principles for a program. Created as a knock off menu from Diary Queen that has burgers, ice cream, and drink options.
+		        Starting on the main WPF layout we see the menu items and the menu.
+	        </p>
+	        <img class="DBscreenshot" src="Assets/DairyBarn/WPFmain.png" alt="Main menu page that shows the menu items and the menu" />
+	        <p class="description">Once the user finds an item the want they can select that item. It will then be added to the order on the left side of the screen and all the other fields will update. The user can also change the options of that
+		        menu item to customize their order.
+	        </p>
+	        <div class="ordering">
+		        <img class="DBscreenshotFlex" src="Assets/DairyBarn/SelectItem.png" alt="Updated UI after an item is selected from the menu." />
+		        <img class="DBscreenshotFlex" src="Assets/DairyBarn/CustomizeItem.png" alt="Customizing an order and its reflection on the menu display and the price break down" />
+	        </div>
+	        <p class="description">There is a deal option for burgers and ice cream that allows the user to get 25% off when purchasing both items together. You can select both options and customize both options. For both regular items and the pick two deal can be customized from the menu screen and removed from the order</p>
+	        <img class="DBscreenshot" src="Assets/DairyBarn/PickTwo.png" alt="Pick two deal. Get a discount off a burger and ice cream together." />
+	        <p class="description">After the user selects everything for order they can select the Complete order button at the bottom. They will be redirected to another screen to input the amount they are paying for the order.
+		        If the amount is less than the total red appears and the button is not active, if the amount is greater than or equal to the total the button is active and the user can check out.
+	        </p>
+	        <div class="checkout">
+		        <img class="DBscreenshotFlex" src="Assets/DairyBarn/InvalidPaymentAmount.png" alt="Invalid payment amount." />
+		        <img class="DBscreenshotFlex" src="Assets/DairyBarn/ValidPayment.png" alt="Valid payment amount." />
+	        </div>
+	        <p class="description">After the prompt is cleared the UI resets and the order number is incremented by one. The receipts for the orders are located in the /bin folder if you follow the path all the way back to the receipt.txt file.</p>
+	        <img class="DBscreenshot" src="Assets/DairyBarn/Recipt.png" alt="Receipt for the orders" />
+	        <p class="description">The webpage for this project is simple and just shows all possible options of all menu items, some ingredient information, and a place to search and sort based off price and calories. Selecting burger, ice cream, or drinks from the top will filter the page down to that section of menu items.</p>
+	        <img class="DBscreenshot" src="Assets/DairyBarn/websiteHome.png" alt="Webpage first open" />
+	        <p class="description">The user can select a range or a maximum and minimum for calories and price then all products will be sorted to fit that criteria.</p>
+	        <img class="DBscreenshot" src="Assets/DairyBarn/filter.png" alt="Sorting the menu items based off price and calories" />
+	        <p class="description">There is also a page for reviews so a customer can leave a review of the fast food joint when the are done. Complimented by a date and time stamp.</p>
+	        <img class="DBscreenshot" src="Assets/DairyBarn/Reviews.png" alt="Review page that shows all reviews and a form to submit a review" />
+
+	        <h2 class="sub-header">Demo</h2>
+	        <p>Coming soon!!</p>
+        </div>
+    </body>
+</html>

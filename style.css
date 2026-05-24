@@ -1,0 +1,173 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1e1f22;
+    color: #f2f2f2;
+}
+
+/*Spacing for all pages*/
+.text-center, .projects-center {
+    margin: 2rem;
+    text-align: center;
+    font-size: larger;
+}
+
+/*css for all unordered lists*/
+ul {
+    list-style-position: inside;
+}
+
+.CompareProscreenshot {
+    max-height: 1200px;
+    max-width: 1300px;
+    justify-content: center;
+}
+
+.project-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #000000;
+}
+
+.projects {
+    width: 90%;
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #313338;
+    border: 1px solid #444;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+}
+
+.logo {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.DBscreenshot, .RMDAscreenshot {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    max-width: 1000px;
+}
+
+.ordering, .checkout, .aggq, .editcust, .addcust {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.DBscreenshotFlex {
+    width: 100%;
+    max-width: 600px;
+}
+
+.RMDAflex {
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+    max-height: 800px;
+}
+
+.RMDAflex1 {
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    max-height: 800px;
+}
+
+.RMDAflex2 {
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    max-height: 800px;
+}
+
+.navbar {
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    gap: 10px;
+    background-color: cornsilk;
+    overflow: hidden; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #000000;
+    padding: 20px 0;
+    gap: 10px;
+    background-color: #2b2d31;
+}
+
+.topper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-header{
+    text-align: center;
+}
+
+.resume-section {
+    text-align: center;
+}
+
+.resume-preview {
+    width: 100%;
+    max-width: 900px;
+    height: 1000px;
+    border: none;
+}
+
+.Project-name {
+    text-align: left;
+}
+
+.tech-stack, .skills {
+    display: inline-block;
+    text-align: left;
+}
+
+.description {
+    margin: 15px;
+}
+
+button {
+    background-color: #404249;
+    color: white;
+}
+
+a {
+    color: #4a6fa5;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+a:visited {
+    color: #4a6fa5;
+}
+
+a:hover {
+    color: #2f4d73;
+    text-decoration: underline;
+}
